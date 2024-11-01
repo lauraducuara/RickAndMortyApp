@@ -91,6 +91,8 @@ npm install
 Para iniciar la aplicación, use el siguiente comando:
 
 npm start
+
+
 Esto abrirá la aplicación en el navegador en http://localhost:3000.
 =======
 # RickAndMortyApp
