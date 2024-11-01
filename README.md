@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🛸 **Rick and Morty App**
 🌟 Descripción
 Esta es una aplicación React que utiliza la API de Rick and Morty para mostrar detalles sobre episodios, locaciones y personajes de la serie. Los usuarios pueden ver información detallada sobre cada entidad, seleccionar sus favoritos y guardar estas selecciones en una base de datos Firestore de Firebase.
@@ -91,3 +92,7 @@ Para iniciar la aplicación, use el siguiente comando:
 
 npm start
 Esto abrirá la aplicación en el navegador en http://localhost:3000.
+=======
+# RickAndMortyApp
+Esta aplicación es una experiencia interactiva para los fanáticos de "Rick and Morty". 
+>>>>>>> eb1e503fd1576bfdd173a522b6a30a74d0414348
