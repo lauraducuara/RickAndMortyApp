@@ -1,0 +1,90 @@
+.specificLocationContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.locationDetails {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.residentsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; 
+}
+
+.residentItem {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin: 10px; 
+  text-align: center; 
+}
+
+.characterImage {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-bottom: 5px; 
+}
+
+
+.info {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.residentsTitle {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.residentsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.characterCard {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.characterCard:hover {
+  transform: translateY(-5px);
+}
+
+.characterImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.characterName {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.buttonsContainer {
+  margin-top: 10px;
+}
+
+.backButton {
+  margin-top: 20px;
+}

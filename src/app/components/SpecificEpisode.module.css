@@ -1,0 +1,58 @@
+.episodeContainer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .episodeDetails {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .characterGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 15px; 
+    margin-top: 10px; 
+  }
+  
+  .characterCard {
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    transition: transform 0.2s; 
+  }
+  
+  .characterCard:hover {
+    transform: scale(1.05); 
+  }
+  
+  .characterImage {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd; 
+  }
+  
+  .characterName {
+    text-align: center;
+    padding: 10px 0; 
+    font-weight: bold; 
+    color: #333; 
+  }
+  
